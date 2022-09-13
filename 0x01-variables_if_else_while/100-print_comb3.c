@@ -11,23 +11,23 @@ int main(void)
 	
 	while (c <= 99)
 	{
-		f_d = (c / 10 + ' 0 ') ;
-		l_d = (c % 10 + ' 0 ') ;
+		f_d = (c / 10 + ' 0 ');
+		l_d = (c % 10 + ' 0 ');
 
 		if (f_d < l_d)
 		{
-			putchar(f_d) ;
-			putchar(l-d) ;
+			putchar(f_d);
+			putchar(l-d);
 
 			if (c != 89)
 			{
-				putchar(' , ') ;
-				putchar(' ') ;
+				putchar(' , ');
+				putchar(' ');
 
 			}
 		}
 		c++;
 	}
-putchar('\n') ;
-return (0) ;
+putchar('\n');
+return (0);
 }
