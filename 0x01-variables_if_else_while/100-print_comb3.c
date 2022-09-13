@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - program that prints all possible differnt combinations of 2 digits
- * Returns: 0
- */
+ ** main - program that prints all possible differnt combinations of 2 digits
+ ** Returns: 0
+ **/
 int main(void)
 {
 	int c = 0;
