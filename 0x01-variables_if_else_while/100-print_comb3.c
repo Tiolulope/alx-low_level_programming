@@ -1,33 +1,29 @@
 #include <stdio.h>
 /**
- ** main - program that prints all possible differnt combinations of 2 digits
- ** Returns: 0
- **/
+ * main - print single digit numbers starting from 0
+ *
+ * Return: returns Zero at the end
+ */
 int main(void)
 {
-	int c = 0;
-	int f_d;
-	int l_d;
-	
-	while (c <= 99)
-	{
-		f_d = (c / 10 + '0');
-		l_d = (c % 10 + '0');
+	int i, j:
 
-		if (f_d < l_d)
+		for(i = 0;i <= 9;j++)
 		{
-			putchar(f_d);
-			putchar(l-d);
-
-			if (c != 89)
+			for (j = 1 <=9; j++)
 			{
-				putchar(',');
-				putchar(' ');
-
+				if(j > i)
+				{
+					putchar(i + '0');
+					putchar(j + '0');
+					if (i !=8)
+					{
+						putchar(',');
+						putchar('');
+					}
+				}
 			}
 		}
-		c++;
-	}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return(0);
 }
