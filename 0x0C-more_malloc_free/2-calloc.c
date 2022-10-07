@@ -30,4 +30,4 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		filler[index] = '\0';
 
 	return (mem);
-
+}
